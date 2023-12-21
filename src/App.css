@@ -1,0 +1,136 @@
+/* Styling for UseReducer component */
+.UseReducer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.UseReducer h1 {
+  font-size: 2em;
+  color: #2980b9;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.UseReducer button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: 2px solid #2980b9;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.UseReducer button:hover {
+  background-color: #2980b9;
+  border-color: #3498db;
+  color: #fff;
+}
+
+.UseReducer h1,
+.UseReducer button,
+.UseReducer div {
+  display: inline-block;
+}
+.UseReducer img{
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+.UseReducer div {
+  margin-top: 20px;
+}
+/* Styling for UseRef component */
+.UseRef {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.UseRef img
+{
+  display: block;
+  margin: auto;
+}
+
+.UseRef h1 {
+  font-size: 2em;
+  color: #27ae60;
+  margin-bottom: 20px;
+}
+
+.UseRef button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #e67e22;
+  color: #fff;
+  border: 2px solid #d35400;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.UseRef button:hover {
+  background-color: #d35400;
+  border-color: #e67e22;
+  color: #fff;
+}
+
+.UseRef label {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.UseRef textarea {
+  width: 25%;
+  height: 20%;
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Styling for the App component */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+.App img{
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+
+.App div {
+  font-size: 2em;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+.App button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: #fff;
+  border: 2px solid #27ae60;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.App button:hover {
+  background-color: #27ae60;
+  border-color: #2ecc71;
+  color: #fff;
+}
+
+.App h1{
+  color:#27ae60
+}
